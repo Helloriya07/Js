@@ -28,5 +28,5 @@ let dictonary = {
 }
 console.log(dictonary);
 
-//factorial calculation..
+
 
