@@ -1,4 +1,4 @@
-console.log("hello world!!")
+console.log("Dom manipulation in javascript")
 
 //methods...
 document.body.firstElementChild
