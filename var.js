@@ -13,6 +13,7 @@ console.log(b == d); // false
 const a1= 6;
 // not allowed as const are not changed a1=a1+1; 
 console.log(a1); 
+
 let blockscope = 77;
 var globalscope = 99;
 console.log(blockscope,globalscope);
