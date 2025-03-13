@@ -1,1 +1,228 @@
+//Question 1
+console.log("hello Riya")
 
+//Question 2
+function peri(l, b) {
+
+    return 2 * (l + b);
+
+}
+let perimeter = peri(4, 6);
+console.log(perimeter)
+
+//question 3
+
+const a = 7;
+const b = 6;
+const greater = a > b ? `${a} is greater` : `${b} is greater`;
+console.log(greater);
+
+//question 4
+
+function sum(N) {
+    abJodDo = 0;
+    for (let nisha = 1; nisha <= N; nisha++) {
+        abJodDo = abJodDo + nisha;
+
+
+    }
+    return abJodDo;
+}
+let JodBarabar = sum(8);
+console.log(JodBarabar);
+
+
+//question 5
+function reverse(N) {
+    let num = N;
+    let temp = 0;
+
+    while (num != 0) {
+        let digit = num % 10;
+        temp = temp * 10 + digit;
+        num = Math.floor(num / 10);
+    }
+
+    return temp;
+}
+
+let r = reverse(554);
+console.log(r);
+
+//question 6
+function natural(N) {
+    let num = 1;
+    let sum = 0;
+
+    while (num <= N) {
+        sum = sum + num;
+        num++;
+    }
+
+    return sum;
+}
+
+let n = natural(5);
+console.log(n);
+
+//question 7
+
+function EvenOdd(N) {
+    let num = N;
+    if (num % 2 == 0) {
+        console.log("number is even");
+    } else {
+        console.log("number is odd");
+    }
+}
+EvenOdd(4);
+EvenOdd(5);
+
+//question 9
+let num = 5;
+let str = "this number is"
+let v = str + num;
+console.log(v);
+
+let value = "55"
+let ank = 4;
+let minus = value - ank;
+console.log(minus)
+
+//question 10==5
+
+//question 11
+
+let array = ["riya", "pinki", "rinki", 77, 55, 22]
+console.log(array);
+
+//question 12
+let arr = [1, 2, 3, 4, 4, 5, 6, 7]
+arr.push(8);
+console.log(arr);
+arr[4] = 0;
+console.log(arr);
+arr.pop();
+console.log(arr);
+
+//question 13
+let arr1 = [
+    [1, 2, 3, 4, 5],  // Row 1
+    [6, 7, 8, 9, 10], // Row 2
+    [11, 12, 13, 14, 15], // Row 3
+    [16, 17, 18, 19, 20], // Row 4
+    [21, 22, 23, 24, 25]  // Row 5
+];
+
+
+console.log(arr1);
+
+
+console.log("Element at row 3, column 4: " + arr1[2][3]);  
+for (let i = 0; i < arr1.length; i++) {
+    for (let j = 0; j < arr1[i].length; j++) {
+        console.log(`arr1[${i}][${j}] = ${arr1[i][j]}`);
+    }
+}
+
+//question 16
+
+function fun1() {
+    let a = 7;
+    let b = 8;
+
+    function fun2() {
+        let sum = a + b;
+        let minus = a - b;
+        return { sum, minus };  
+    }
+
+    
+    let result = fun2();
+    console.log(result.sum); 
+    console.log(result.minus); 
+}
+
+fun1();
+
+//question 17
+let arrr=[1,5,7,9,77,55]
+let max = Math.max(...arrr);
+console.log(max);
+
+//question 18
+let arey =[1,2,3,4,5]
+console.log(arey.length);
+let fruits = ["apple","banana","papaya"]
+console.log(fruits.join("-"))
+
+//question 19
+
+console.log(arey.concat(...fruits))
+delete fruits[2]
+console.log(fruits);
+
+//question 20
+let empty=[];
+empty.push(1,2,3,57,58,55);
+console.log(empty);
+empty.pop();
+console.log(empty);
+empty.copyWithin(1,0,1)
+console.log(empty);
+
+
+
+//***************************************************************//
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="container">
+    <p>JAVASCRIPT ASSIGNMENT....... </p>
+</div>
+</body>
+<script>
+
+    //question 14
+alert("this program reperesnts alert box in js")
+    //question 8
+
+    let color;
+    color = parseInt(prompt("enter your choice"));
+    switch (color) {
+        case 1:
+            console.log("orange");
+            break;
+        case 2:
+            console.log("red");
+            break;
+        case 3:
+            console.log("yellow");
+            break;
+        case 4:
+            console.log("green");
+            break;
+        case 5:
+            console.log("blue");
+            break;
+        default:
+            console.log("invalid")
+    }
+//question 15
+confirm("Program executed succesfully");
+    
+
+
+
+
+</script>
+
+</html>
