@@ -24,6 +24,13 @@ console.log(blockscope,globalscope);
 }
 console.log(blockscope,globalscope);//77,44 bcoz var is globalscoped.
 
+//Hoisting--variable & function are hoisted which means their declaration is moved on top of code.
+var a;
+console.log(a)//it will not throw an error instead print undefined qki a exist krta hai bas value assign nhi hui hai
+a=44;
+
+
+
 
 
 
